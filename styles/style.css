@@ -2,6 +2,24 @@
     box-sizing: border-box;
 }
 
-.list {
+@font-face {
+    font-family:'Roboto';
+    src: url('../fonts/roboto-condensed.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:'Roboto';
+    src: url('../fonts/roboto-medium.ttf');
+    font-weight: 500;
+}
+
+body {
+    font-family:'Roboto';
+    font-weight: 400;
+}
+
+.list  {
     display: inline-block;
+  
 }
