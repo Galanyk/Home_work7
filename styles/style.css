@@ -31,6 +31,7 @@
 
 .list  {
     display: inline-block;
+    box-sizing: border-box;
     font-family: 'Roboto';
     font-weight: 400;
     text-align: center;
@@ -90,13 +91,17 @@
 
 .button {
     display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif; 
     font-weight: 400;
+    text-transform: uppercase;
     margin-left: 400px;
     text-align: center;
     background-color: #34547A;
     border: 0px;
     color: #FFFFFF;
+    width: 225px;
     
     padding: 25px 41px 25px 41px;
     font-size: 15px;
@@ -123,7 +128,7 @@
 }
 
 .subject {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: #000000;
     font-size: 32px;
@@ -146,8 +151,68 @@
     width: 540px;
     margin-bottom: 100px;
     text-align: center;
-    position: absolute;
+        
+}
+
+.container_project {
+    background-color: #34547A;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    padding: 0;
+    color: #FFFFFF;
+    margin-right: 20px;
+   
+        
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    width: 36px;
+    margin-bottom: 10px;
+   
+}
+
+.description_project {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 71px;
+    
+
+}
+
+.imag {
+   
+   
+    width: 46.67px;
+    height: 50PX;
+}
 
 
-       
+.container_project.first {
+    background-color: #34547A;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+   
+    color: #FFFFFF;
+    margin-left: 405px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+.container_project.last {
+    background-color: #34547A;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+   
+    color: #FFFFFF;
+    margin-right: 420px;
+    padding: 0;
 }
