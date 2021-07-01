@@ -3,23 +3,94 @@
 }
 
 @font-face {
-    font-family:'Roboto';
-    src: url('../fonts/roboto-condensed.ttf');
-    font-weight: 400;
+    font-family: 'Roboto';
+    src: url('../fonts/subset-Roboto-Medium.eot');
+    src: url('../fonts/subset-Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/subset-Roboto-Medium.woff') format('woff'),
+        url('../fonts/subset-Roboto-Medium.ttf') format('truetype'),
+        url('../fonts/subset-Roboto-Medium.svg#Roboto-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-    font-family:'Roboto';
-    src: url('../fonts/roboto-medium.ttf');
-    font-weight: 500;
+    font-family: 'Roboto';
+    src: url('../fonts/subset-Roboto-Regular.eot');
+    src: url('../fonts/subset-Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/subset-Roboto-Regular.woff') format('woff'),
+        url('../fonts/subset-Roboto-Regular.ttf') format('truetype'),
+        url('../fonts/subset-Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
-body {
-    font-family:'Roboto';
-    font-weight: 400;
-}
 
 .list  {
     display: inline-block;
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26.25px;
+    color: #000000;
+    margin-bottom: 166px;
+    margin-right: 42px;
+    margin-top: 79px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;  
+     
   
+}
+
+.list.first {
+    margin-left: 399px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+
+.list.last {
+    margin-right: 0px;
+}
+
+.link.first {
+    color: #34547A;
+}
+
+.link{
+    color: #000000;
+}
+.title {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+    width: 541px;
+    line-height: 78.75px;
+   
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 60px;
+    margin-left: 399px;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    line-height: 26.25px;
+    margin-left: 400px;   
+    width: 540px;
+    margin-bottom: 60px;
+       
+}
+
+.container {
+    width: 1920px;
+   
+    margin-left: auto;
+    margin-right: auto;
 }
