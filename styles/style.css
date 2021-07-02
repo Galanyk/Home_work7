@@ -31,7 +31,6 @@
 
 .list  {
     display: inline-block;
-    box-sizing: border-box;
     font-family: 'Roboto';
     font-weight: 400;
     text-align: center;
@@ -150,22 +149,41 @@
     margin-left: 690px;   
     width: 540px;
     margin-bottom: 100px;
-    text-align: center;
-        
+    text-align: center;     
 }
 
-.container_project {
+.cont {
     background-color: #34547A;
-    box-sizing: border-box;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100 px;
+    
+}
+
+
+.container-project {
     vertical-align: top;
     display: inline-block;
-    padding: 0;
     color: #FFFFFF;
-    margin-right: 20px;
-   
-        
 }
 
+.imag-first {  
+    width: 46.67px;
+    height: 50PX;
+    margin-right: 20px;  
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 405px;
+}
+
+.imag {
+    margin-right: 20px;  
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 46.67px;
+    height: 50PX;
+}
 .subtitle {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -173,46 +191,20 @@
     line-height: 25px;
     width: 36px;
     margin-bottom: 10px;
+    margin-top: 100px;
    
 }
 
-.description_project {
+
+.description-project {
     font-family: 'Roboto', sans-serif; 
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     width: 71px;
-    
+    margin-right: 52px;
+    margin-bottom: 100px;
 
 }
 
-.imag {
-   
-   
-    width: 46.67px;
-    height: 50PX;
-}
 
-
-.container_project.first {
-    background-color: #34547A;
-    box-sizing: border-box;
-    vertical-align: top;
-    display: inline-block;
-   
-    color: #FFFFFF;
-    margin-left: 405px;
-    margin-right: 20px;
-    padding: 0;
-}
-
-.container_project.last {
-    background-color: #34547A;
-    box-sizing: border-box;
-    vertical-align: top;
-    display: inline-block;
-   
-    color: #FFFFFF;
-    margin-right: 420px;
-    padding: 0;
-}
