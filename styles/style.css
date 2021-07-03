@@ -24,9 +24,7 @@
     font-display: swap;
 }
 
-
 .fill-first {
-    
     background-color: #EEEFF1;
 }
 
@@ -54,12 +52,9 @@
 }
 
 .list.first {
-    
     font-family: 'Roboto';
     font-weight: 500;
-
 }
-
 
 .list.last {
     margin-right: 0px;
@@ -74,16 +69,14 @@
     color: #000000;
     text-decoration: none;
 }
+
 .title {
     font-family: 'Roboto', sans-serif; 
     font-weight: 500;
-   
-    line-height: 78.75px;
-   
+    line-height: 79px;
     font-size: 48px;
     color: #000000;
     margin-bottom: 60px;
-    
 }
 
 .description {
@@ -91,11 +84,9 @@
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    line-height: 26.25px;
-       
+    line-height: 27px; 
     width: 540px;
     margin-bottom: 60px;
-       
 }
 
 .button {
@@ -105,35 +96,17 @@
     font-family: 'Roboto', sans-serif; 
     font-weight: 400;
     text-transform: uppercase;
-   
     text-align: center;
     background-color: #34547A;
-    border: 0px;
     color: #FFFFFF;
-    width: 225px;
-    
     padding: 25px 41px 25px 41px;
     font-size: 15px;
     margin-bottom: 146px;
-       
-
-
-
 }
-
-
 
 .fill-second {
     background-color: #F9F9F9;
 }
-
-
-
-
-
-
-
-
 
 .container-about {
     background-color: #F9F9F9;
@@ -162,8 +135,7 @@
     width: 540px;
     margin-bottom: 100px;
     margin-left: auto;
-    margin-right: auto;
-       
+    margin-right: auto;     
 }
 
 .cont {
@@ -182,8 +154,8 @@
 }
 
 .imag-first {  
-    
-   
+    height: 50px;
+    width: 47px;
     margin-right: 20px;  
     padding-top: 100px;
     padding-bottom: 100px;
@@ -193,15 +165,14 @@
     margin-right: 20px;  
     padding-top: 100px;
     padding-bottom: 100px;
-   
-    height: 50PX;
+    height: 50px;
+    width: 47px;
 }
 .subtitle {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
-    
     margin-bottom: 10px;
     padding-top: 100px;
 }
@@ -211,7 +182,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    
     margin-right: 52px;
 }
 
@@ -221,7 +191,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    
 }
 
 .container-work {
@@ -239,7 +208,6 @@
     line-height: 37px;
     padding-top: 100px;
     margin-bottom: 50px;
-   
 }
 
 .text {
@@ -276,9 +244,8 @@
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    width: 130px;
     margin-bottom: 20px;
-   
+    padding-top: 50px;
 }
 
 .text-last {
@@ -287,6 +254,5 @@
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif; 
     font-weight: 400;
-    width: 193px;
-    
+    padding-bottom: 50px;
 }
