@@ -40,34 +40,45 @@
     display: inline-block;
     box-sizing: border-box;
     vertical-align: top;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26.25px;
-    color: #000000;
     margin-bottom: 166px;
-    margin-right: 42px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em; 
 }
 
-.list.first {
-    font-family: 'Roboto';
-    font-weight: 500;
-}
-
-.list.last {
-    margin-right: 0px;
-}
-
-.link.first {
+.link-first {
     color: #34547A;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em; 
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 42px;
 }
 
 .link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 42px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em; 
     color: #000000;
     text-decoration: none;
+}
+
+.link-last {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 42px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em; 
+    color: #000000;
+    text-decoration: none;
+    margin-right: 0px;
 }
 
 .title {
@@ -84,12 +95,12 @@
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    line-height: 27px; 
+    line-height: 26.25px; 
     width: 540px;
     margin-bottom: 60px;
 }
 
-.button {
+.but {
     display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
@@ -100,7 +111,8 @@
     background-color: #34547A;
     color: #FFFFFF;
     padding: 25px 41px 25px 41px;
-    font-size: 15px;
+    font-size: 16px;
+    Line-height: 26.25px;
     margin-bottom: 146px;
 }
 
@@ -122,7 +134,7 @@
     font-weight: 500;
     color: #000000;
     font-size: 32px;
-    line-height: 37px;   
+    line-height: 37.5px;   
     margin-bottom: 50px;
 }
 
@@ -131,12 +143,16 @@
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    line-height: 26px;
+    line-height: 26.25px;
     width: 540px;
     margin-bottom: 100px;
     margin-left: auto;
-    margin-right: auto;     
+    margin-right: auto;   
 }
+
+.fill-third {
+    background-color: #34547A;
+} 
 
 .cont {
     background-color: #34547A;
@@ -149,16 +165,7 @@
 .container-project {
     vertical-align: top;
     display: inline-block;
-    color: #FFFFFF;
     box-sizing: border-box;
-}
-
-.imag-first {  
-    height: 50px;
-    width: 47px;
-    margin-right: 20px;  
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .imag {
@@ -166,15 +173,16 @@
     padding-top: 100px;
     padding-bottom: 100px;
     height: 50px;
-    width: 47px;
+    width: 46.67px;
 }
 .subtitle {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 21px;
-    line-height: 25px;
+    line-height: 24.61px;
     margin-bottom: 10px;
     padding-top: 100px;
+    color: #FFFFFF;
 }
 
 .description-project {
@@ -183,6 +191,7 @@
     font-size: 16px;
     line-height: 26px;
     margin-right: 52px;
+    color: #FFFFFF;
 }
 
 .description-project-last {
@@ -191,6 +200,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    color: #FFFFFF;
 }
 
 .container-work {
@@ -215,7 +225,7 @@
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    line-height: 26px;
+    line-height: 26.25px;
     width: 540px;
     margin-bottom: 57px;
     margin-left: auto;
@@ -228,10 +238,6 @@
     margin-bottom: 100px;
 }
 
-.fill-third {
-    background-color: #34547A;
-   } 
-
 .container {
     width: 1110px;
     margin-left: auto;
@@ -240,7 +246,7 @@
 
 .headline {
     font-size: 21px;
-    line-height: 25px;
+    line-height: 24.61px;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -250,7 +256,7 @@
 
 .text-last {
     font-size: 13px;
-    line-height: 21px;
+    line-height: 21.33px;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif; 
     font-weight: 400;
